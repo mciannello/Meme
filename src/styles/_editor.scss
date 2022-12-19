@@ -1,0 +1,24 @@
+.editor_container{
+    width: 80%;
+    display:flex;
+    flex-direction:column;
+    margin:{
+        left: auto;
+        right: auto;
+        top:2em;
+    }
+    background-color: black;
+    color: aquamarine;
+    h1, h3, .form, p{
+        width:inherit;
+        margin:{
+            left: auto;
+            right: auto;
+        }
+    }
+    p{
+        color:black;
+    }
+   
+}
+
