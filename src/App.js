@@ -1,5 +1,6 @@
-
+import '../src/styles/_app.scss'
 import Imgmeme from './componentes/Imgmeme.js'
+
 function App() {
   return (
     <div className="App">

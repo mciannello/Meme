@@ -16,3 +16,31 @@ const Hijo = ()=>{
 }
 
 export default Hijo;
+
+
+<figure className ="exportarImg" id='exportarImg'>
+            <p>{textmeme}</p>
+            <img src={`./memes/${imgmeme}.jpg`} alt="meme"/>
+         </figure> */}
+         
+
+         
+    const seleccionarImg = (e)=>{
+        setImgmeme(e.target.value);
+        
+    }
+
+    <img 
+    key={template.id} 
+    src={template.url}
+     alt={template.name} />
+);
+
+<select className='form'>
+            {!template && templates.map(template =>{
+                return (
+                    <option value={template.id} onChange={seleccionarImg}>{template.name}</option>
+                
+                )
+                })};
+                </select>
