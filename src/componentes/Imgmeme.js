@@ -45,7 +45,7 @@ const Imgmeme= ()=>{
             </select>
          <div id='exportarImg' className="exportarImagen">
             <p>{textmeme}</p>
-            <img src={`./meme/${imgmeme}.jpg`} alt={`meme ${imgmeme}`}/>
+            <img  src={`./meme/${imgmeme}.jpg`} alt={`meme ${imgmeme}`}/>
          </div>
          <button type='button' onClick={Descargar}> Descargar </button>
         </div>
